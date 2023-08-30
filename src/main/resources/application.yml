@@ -1,5 +1,5 @@
 server:
-  port: 0
+  port: 8888
   
 spring:
   cloud:
@@ -13,5 +13,5 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     port: 5672
-    username: tj705
-    password: tj705    
+    username: guest
+    password: guest    
