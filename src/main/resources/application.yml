@@ -1,0 +1,17 @@
+server:
+  port: 0
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+        #  uri: file:D:\\workspace\\workspace_boot\\work\\git-repo
+           uri: https://github.com/woojin598/config.git
+  application:
+    name: config-service  
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: tj705
+    password: tj705    
